@@ -1,0 +1,7 @@
+Список используемых сайтов:
+site = 'https://lenta.ru/news/2018/03/06/wind_an26/'
+site = 'https://www.gazeta.ru/business/2018/03/06/11672875.shtml?updated'
+site = 'https://russian.rt.com/inotv/2018-03-09/Der-Standard-rasskazal-gostyam-CHM-2018'
+site = 'https://www.e1.ru/news/spool/news_id-53630281.html'
+site = 'https://www.championat.com/hockey/news-3369223-kozhevnikov--o-sudejstve-v-khl-inogda-stydno-smotrish-i-za-golovu-hvataeshsja.html'
+site = 'http://www.spiegel.de/auto/aktuell/diesel-fahrverbote-14-staedten-drohen-einschraenkungen-a-1197288.html'
