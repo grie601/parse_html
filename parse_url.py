@@ -177,9 +177,12 @@ class ParseHtml:
             result_text = self.clear_and_prepare_text(result_text, ['<br/>, </xml>', '</style>', '<br', '</a>'])  #очищаем текст от ненужных тэгов и
             # обрабатываем текст по ширине
             # записываем получившийся текст в файл
-
-            with open(os.path.join(self.parse_url(url), 'result.txt'), 'w', encoding='utf-8') as fid:
-                fid.write(str(result_text))
+            try:
+                with open(os.path.join(self.parse_url(url), 'result.txt'), 'w', encoding='utf-8') as fid:
+                    fid.write(str(result_text))
+            except IOError:
+                print('Ошибка записи в файл')
+            print('Парсинг страницы прошел успешно')
             return result_text
 
     @staticmethod
